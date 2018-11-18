@@ -17,16 +17,16 @@ var Third = parseInt(Number3);
 Number4 = prompt("Number please...");
 var Forth = parseInt(Number4);
 
-if ((First > Second) (First > Third) (First > Forth))
+if (First > Second && First > Third && First > Forth)
   console.log("The largest number is "+ First);
 
-else if ((Second > First) (Second > Third) (Second > Forth))
+else if (Second > First && Second > Third && Second > Forth)
   console.log("The largest number is "+ Second);
 
-else if ((Third > First) (Third > Second) (Third > Forth))
+else if (Third > First && Third > Second && Third > Forth)
   console.log("The largest number is "+ Third);
 
-else if ((Forth > First) (Forth > Second) (Forth > Third))
+else if (Forth > First && Forth > Second && Forth > Third)
   console.log("The largest number is "+ Forth);
 
 </script>
